@@ -2,6 +2,7 @@
 %define major 0
 %define minor 4
 %define tag 36b3ba5
+%define srcdir visionmedia-node-jscoverage-%{tag}
 Release: 1
 
 Summary: Secure Sockets Layer and cryptography libraries and tools
@@ -18,7 +19,7 @@ JScoverage for node.
 
 %prep
 
-%setup -q -n visionmedia-node-jscoverage-%{tag}
+%setup -q -n %{srcdir}
 
 %build 
 
