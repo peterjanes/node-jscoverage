@@ -1,7 +1,7 @@
 %define _unpackaged_files_terminate_build 0
 %define major 0
 %define minor 4
-%define tag 36b3ba5
+%define tag 36baba5
 %define srcdir visionmedia-node-jscoverage-%{tag}
 Release: 1
 
@@ -12,7 +12,6 @@ Source0: https://github.com/visionmedia/node-jscoverage/tarball/master/36baba5
 License: GPL2
 URL: https://github.com/visionmedia/node-jscoverage/
 Packager: Peter Janes <peter.janes@ek3.com>
-BuildRoot: /var/tmp/%{name}-%{version}-root
 
 %description
 JScoverage for node.
